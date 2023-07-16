@@ -32,6 +32,9 @@ dependencies:
   flutter:
     sdk: flutter
   just_audio: ^0.9.34
+  just_audio_mpv: ^0.1.6
+  just_audio_windows: ^0.2.0
+  audio_video_progress_bar: ^1.0.1
 
   # использование иконок для Cupertino компонентов
   # Cupertino компоненты - это компоненты в стили iOS
@@ -55,10 +58,8 @@ flutter:
   # в классе материалов Icons.
   uses-material-design: true
 
-  # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/audio/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
