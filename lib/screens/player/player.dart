@@ -2,14 +2,14 @@ import 'package:audio_video_progress_bar/audio_video_progress_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:peace_img/screens/player/page_manager.dart';
 
-class MyApp extends StatefulWidget {
-  const MyApp({Key? key}) : super(key: key);
+class Player extends StatefulWidget {
+  const Player({Key? key}) : super(key: key);
 
   @override
   MyAppState createState() => MyAppState();
 }
 
-class MyAppState extends State<MyApp> {
+class MyAppState extends State<Player> {
   late final PageManager _pageManager;
 
   @override
